@@ -1,3 +1,6 @@
+![image](https://github.com/angelodesenvolvedor/Clima/assets/98216100/8669e165-1bdd-40df-9399-bb04aa7c3440)
+
+
 # Clima
 
 * Este projeto é uma aplicação web que permite aos usuários obterem informações em tempo real sobre as condições meteorológicas de uma cidade específica.

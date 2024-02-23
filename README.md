@@ -11,4 +11,9 @@
 * ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) -  Utilizado para interação dinâmica com o usuário e para realizar chamadas à API do OpenWeatherMap.
   
 # 🧑🏽‍💻 Autor
+
 * **Angelo Silvano** - Front-End Developer - [@angelodesenvolvedor](https://github.com/angelodesenvolvedor)
+  
+## 📄 Licença
+
+* Esse projeto está sob a licença MIT license - acesse os detalhes [LICENSE.md](https://github.com/angelodesenvolvedor/Clima?tab=MIT-1-ov-file).

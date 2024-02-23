@@ -18,7 +18,7 @@ document.querySelector('#search').addEventListener('submit', async (event) => {
 
         if (json.cod === 200) {
             const cityDetails = await getCityDetails(cityName, json.sys.country);
-
+        
             showInfo({
                 city: json.name,
                 state: cityDetails.state,
@@ -33,12 +33,9 @@ document.querySelector('#search').addEventListener('submit', async (event) => {
             });
         } else {
             document.querySelector("#weather").classList.remove('show');
-            showAlert(`
-                Não foi possível localizar...
-
-                <img src="src/images/404.svg"/>
-            `);
+            // Remova a chamada para showAlert para evitar exibir a mensagem de erro de localização
         }
+        
     } catch (error) {
         console.error('Erro ao chamar a API de previsão do tempo:', error);
         showAlert('Erro ao buscar informações meteorológicas.');
